@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3546683653534837667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3546683653534837669}
+  - component: {fileID: 3546683653534837668}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3546683653534837669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546683653534837667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2381207, y: 3.4711509, z: 0.079602234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3546683653534837668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546683653534837667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28832fc79d754e40a24a5a9b2277a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Neon:
+  - OnScreen:
+    - {fileID: 9022632792606371849, guid: 49136b79785e3a04b930f8b6b06d3c48, type: 3}
+    - {fileID: 6215895911924228079, guid: 1e812104ab3dfd846a2994afcba6925b, type: 3}
+    - {fileID: 280150687834393304, guid: d391bc87056bd98458ee7a79c6f7b9a3, type: 3}
+    - {fileID: 8963295678658263965, guid: f71c1a673f95a3344a08e609517edfe6, type: 3}
+    - {fileID: 7396033537213642756, guid: 2fd45be4aab7c6746ac9ef25166411c9, type: 3}
+    - {fileID: 8126100334172255081, guid: 8b086e1c2848eab4e97c652a76ad2f8f, type: 3}
+    Enimies:
+    - {fileID: 1111374545724689774, guid: a4ad2b5e6ea7c9b41a512bdf29d6457d, type: 3}
+    - {fileID: 8415545694465649038, guid: 4b5fe18992f18254b9a1185638b2a38c, type: 3}
+    - {fileID: 5245671020030184575, guid: ea79dc703cd175542bd5b73a13c756cd, type: 3}
+    - {fileID: 7074578840493978140, guid: af02d07affcbdc94988a892f3cb8beda, type: 3}
+    - {fileID: 1694297303494713238, guid: 59cf4aeca561acf41bed9e18e80eea16, type: 3}
+    - {fileID: 7503954241410217713, guid: dded16c4fe95ae548a223d72b9b6da8e, type: 3}
+    Fire:
+    - {fileID: 6371384469330342582, guid: 37f9b36c4f1a9254f9f9cdfa88ef9cad, type: 3}
+    - {fileID: 1257652472654842483, guid: e19e12a1305e26c4e9b1c9fc4f19415a, type: 3}
+    - {fileID: 5467103135261330312, guid: dc29d2a7424999f43990297ea4470955, type: 3}
+    - {fileID: 7244589817132892276, guid: 4a73e0219d4ebd046af76f9b26c3609d, type: 3}
+    - {fileID: 7914101625136190610, guid: 42779ea49a6c8894e809e626151613b3, type: 3}
+    - {fileID: 1957343349308233452, guid: 83bf1b6491b8ecd48bb0905c4a3279aa, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 3092835734576658234, guid: 28e2b0fee4731f74e8f00dd5f3096ab5, type: 3}
+    - {fileID: 2865718437956528634, guid: 7dba408a69b373e4bbaa86919a17f9fa, type: 3}
+    - {fileID: 6896984802908219948, guid: 68933392bbe34aa4d9ef998dde826485, type: 3}
+    - {fileID: 3340558870600412887, guid: 68d1b5a0c938fb544b2570a72a2d5eeb, type: 3}
+    - {fileID: 5816173977403823546, guid: c944f16d9d09db04c8b4faf50c940361, type: 3}
+    - {fileID: 8762878724644079741, guid: 3cdf310ccdb7d464985f1737a59a2be5, type: 3}
+    Enimies:
+    - {fileID: 2304834132549143734, guid: 079b21b4f903bd942b1cf657b27805e8, type: 3}
+    - {fileID: 6673787050556703186, guid: a372c56e51a342b4eb9d3bca65b4dbe5, type: 3}
+    - {fileID: 1820179897555056072, guid: 808990353e814ba4c82c3611c8f19361, type: 3}
+    - {fileID: 7672483833694772021, guid: 197cf68b8aee931459d4193aa3f1193c, type: 3}
+    - {fileID: 5093975879911209992, guid: eea10242822ec69418dda820aee9e347, type: 3}
+    - {fileID: 7772411821911659080, guid: fabaabcd22cf8d04a9fefdbc657ee818, type: 3}
+    Fire:
+    - {fileID: 2712455297380545416, guid: 85cad54e28c29b7478edc085141125b8, type: 3}
+    - {fileID: 1915184828487248404, guid: ca89267934ebae44a9503b5149e48e53, type: 3}
+    - {fileID: 4624006554436305492, guid: 3af19aee70dbdf449a01fc18ef217a26, type: 3}
+    - {fileID: 8128691269477937458, guid: 2603a7fd81cc5a044a3c2171e868adb7, type: 3}
+    - {fileID: 1719856665192989699, guid: 1df1d26eba241ce46870b69c01553c79, type: 3}
+    - {fileID: 5699456393458301812, guid: 57be20fe6c3617248892587a7c0c6855, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 9130701239271454490, guid: cb0a1b7b5198cc24f8598caa6d67116e, type: 3}
+    - {fileID: 6358038442581275404, guid: 7ba952ae3df12c54cbb3c775d9ece285, type: 3}
+    - {fileID: 3743268846473968114, guid: 887fb57ea42f5ab42af906c80b657f24, type: 3}
+    - {fileID: 1665011693780228588, guid: 27e842f881b9c1a40a30a03b448b33e8, type: 3}
+    - {fileID: 8893736028141919899, guid: 4e2c51b1fea0aa9408a2df9bc618259f, type: 3}
+    - {fileID: 4917452012212414795, guid: d2e2b2e859fd210418e2d8832cb4c0e9, type: 3}
+    Enimies:
+    - {fileID: 7510918159247313560, guid: cd60d33ec2659ed48b1bdbe3cc1fa7e4, type: 3}
+    - {fileID: 1474552055680902332, guid: cdadb5b5b446c934a89ba09d7ba7a57b, type: 3}
+    - {fileID: 7385435135948347410, guid: b9e37d4eac8efd84baad25a06b8e6402, type: 3}
+    - {fileID: 7402236731700776632, guid: 53d5d77928bd037429e0bd0dd117f073, type: 3}
+    - {fileID: 8069790426351994919, guid: 9592ee07731f7bb4eaea838bcbd0a452, type: 3}
+    - {fileID: 8882797028979328994, guid: bf3260c0ad2845c46af42bd51400fa4f, type: 3}
+    Fire:
+    - {fileID: 8937323179663424142, guid: 0bed98542f10d95428388120341489fa, type: 3}
+    - {fileID: 7866695298793952550, guid: 44cc2b5910192344a903cbc5d2105705, type: 3}
+    - {fileID: 5052725326548412475, guid: a8b7aa5ebc83a6f46a0dc9ed867fb8e4, type: 3}
+    - {fileID: 1006749503407639748, guid: 2f7ca5426ec834f4982c3c2cd51f5b05, type: 3}
+    - {fileID: 8077543941045625731, guid: 0ac3c98d2467b544b8cb00592277ae09, type: 3}
+    - {fileID: 4109293987672043791, guid: b8312562847b1b14c8d416e8e4ff6901, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 4345585518846195758, guid: 7bbed9f023cb1724997bda084f1e29d3, type: 3}
+    - {fileID: 3941787758687651318, guid: 8e872c0ffbaa04946b9bed75f4e3bcb6, type: 3}
+    - {fileID: 8446278548359407031, guid: caeecd931de4f1d49b5bc60bcb40aa02, type: 3}
+    - {fileID: 8305129905273533571, guid: fd848fc59e9538b4db426348ad5ba0ec, type: 3}
+    - {fileID: 7036832946946365818, guid: 62d03d2f03822fd43bfc42bad82d5345, type: 3}
+    - {fileID: 5021295026588802742, guid: 0968f7c843b381a46bc08465a53a2493, type: 3}
+    Enimies:
+    - {fileID: 8511680057902170438, guid: ab0223fb4b291aa40a1fb5d931bf6d69, type: 3}
+    - {fileID: 4193555743246989769, guid: c2f08e34d5286a74381896067527a208, type: 3}
+    - {fileID: 7203666890451838816, guid: d8f40598c701a5c4382995b93f08fbd9, type: 3}
+    - {fileID: 1348271357190563693, guid: 64919f59594beb541a2fb624399f0638, type: 3}
+    - {fileID: 7388631561846063843, guid: 8d569a8a226991943a94911de9190cb3, type: 3}
+    - {fileID: 4962883379665513570, guid: 8318d56332d993b428fc4d1292abed93, type: 3}
+    Fire:
+    - {fileID: 6181299158508214393, guid: 955cc1b9fdede1c40b15324e794686e0, type: 3}
+    - {fileID: 8831879969725191872, guid: 9b13393ed3c6d9340820796453e6e210, type: 3}
+    - {fileID: 4234275755147115057, guid: be1dae19465e8dc49b050526aeab0640, type: 3}
+    - {fileID: 7695034398650306312, guid: cd3bae0141752b44bbd88c2da281c7eb, type: 3}
+    - {fileID: 7463667888824502057, guid: 8bde2702fee4ff742888da8a54d6e711, type: 3}
+    - {fileID: 2973988204992203983, guid: 6ac55ddce1c2c1c4b82ad205c1acbaaa, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 4025858540300540070, guid: 1dfd2a0a270f54346ab0e8fb95809553, type: 3}
+    - {fileID: 4475479794364296629, guid: 67bf7287635c12849915086b01632f81, type: 3}
+    - {fileID: 4139274087650235261, guid: 5e91d4faeedbc804abf00923546cfaa5, type: 3}
+    - {fileID: 295785220251817370, guid: ebe17e3a1378c6a4aa4bfab17788c87e, type: 3}
+    - {fileID: 347581710166123082, guid: b1250d63ac3e66642bf23dfb00ccc55f, type: 3}
+    - {fileID: 464684504971211475, guid: f46e0a1891e04f447863a8f4256817f9, type: 3}
+    Enimies:
+    - {fileID: 4102489142649291851, guid: 4cffe372cc5e3774fa4f1986b091486c, type: 3}
+    - {fileID: 6735690931165939225, guid: 8772c70f48d73ee40acc8d5d0a304641, type: 3}
+    - {fileID: 8322029781999806376, guid: 6fd9a694e2434cb4d858a47b3955e9c9, type: 3}
+    - {fileID: 1479116930717624818, guid: 87f54b405f0f0584899678f92395d449, type: 3}
+    - {fileID: 7650825136109917469, guid: b9bd9cf5dee6ddc49b248cdee2d5d8e9, type: 3}
+    - {fileID: 5407837732845591629, guid: 92a80038c0ec2f64f8926ce05eea0df5, type: 3}
+    Fire:
+    - {fileID: 8537321997485468877, guid: 050e99c5c6787eb42a53d83feb653259, type: 3}
+    - {fileID: 379014740373851307, guid: 63b16e1c7c8c45943b088878fb16c7d8, type: 3}
+    - {fileID: 7460257036643616774, guid: e340055dffdfdfc49a3b95c4ee3e24a7, type: 3}
+    - {fileID: 4938187058190022793, guid: c423c0d84863be34cb9e07510dba17cd, type: 3}
+    - {fileID: 960183646222911735, guid: e09747b52e9f57545b0210b0c28701d7, type: 3}
+    - {fileID: 3520144880014778323, guid: 062ecdf4b33348f49bf2d6557735839b, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 6963398944096311582, guid: 63f03acd377c117449fdbc22c509768f, type: 3}
+    - {fileID: 1709318287253699608, guid: 0a9723acd42d24046986b1d8116f82da, type: 3}
+    - {fileID: 2911078733871506457, guid: 55ce11f1431efa84cbaccf6a03a3a9b4, type: 3}
+    - {fileID: 2315834934986907593, guid: 73d624bd834a7954f893806ed7c1f70f, type: 3}
+    - {fileID: 7774779787052816101, guid: 86899fe56f4df34478f929b6549f5350, type: 3}
+    - {fileID: 4181349404345332833, guid: ea88217b4c3022a479db999943e9252c, type: 3}
+    Enimies:
+    - {fileID: 1484950132070031260, guid: e434db0038ed66c4081b42875c295131, type: 3}
+    - {fileID: 4211042234116428623, guid: 5ce3eab5fd0835a40bef2ce1ec7c0431, type: 3}
+    - {fileID: 3248572263747107866, guid: 20ec1d0cb1651b746b4b1ce618539980, type: 3}
+    - {fileID: 8266588704284578918, guid: a5994ec15ba32c4419bc41608be9626a, type: 3}
+    - {fileID: 3126038601706725766, guid: 58bab2c020ccb1242be8e7e9227e6fe4, type: 3}
+    - {fileID: 1552002824373759094, guid: 2d4f355904c53ff40a3ce5f9c7471854, type: 3}
+    Fire:
+    - {fileID: 1165961002106573004, guid: dae67d5a580fd6c49a80c5fd6abf998c, type: 3}
+    - {fileID: 4825324478490942176, guid: 9e44a7698e5306840b3fcf703d2e4a43, type: 3}
+    - {fileID: 3750175034355794879, guid: 2c046097a466906439adbc8ef94c6d0d, type: 3}
+    - {fileID: 4847460019953632439, guid: 43ef874ad85a0f649af1171cee0b9085, type: 3}
+    - {fileID: 1803351762168342901, guid: e054800aebaad324baa9494cfbf87d2f, type: 3}
+    - {fileID: 8252003338467613409, guid: be847d9575123fa43882f0c01212dbed, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 4257211780852229625, guid: 55bb9b42056a5874bbf9a3c4cd13648a, type: 3}
+    - {fileID: 5835622867896665912, guid: 7b65ea139ec81f748944e1a7b3ec719a, type: 3}
+    - {fileID: 8661931797945888250, guid: 95ef57ec9f03f6042aa9e768ca8d2803, type: 3}
+    - {fileID: 6326315459100598459, guid: ad46f736402ab024994e359343ecae39, type: 3}
+    - {fileID: 4628328292523586501, guid: 4aa1c2a7ddf576a41acc30e89a6f1391, type: 3}
+    - {fileID: 3684256160409618703, guid: 69ee55dcec69b744d89fef08b2018a16, type: 3}
+    Enimies:
+    - {fileID: 4825198435051949367, guid: 1099222ed7294d24ca16e71e4a5b07c9, type: 3}
+    - {fileID: 7189409781186692164, guid: 62cce3b4664a1cf49977ad66ca3063bb, type: 3}
+    - {fileID: 2275341807366846388, guid: ef6715e5d6a9c8a41bc314e11128d14c, type: 3}
+    - {fileID: 8156360234520040790, guid: 18ee760ac3cc2bf4c9d24f5ec4994c00, type: 3}
+    - {fileID: 1760148092657777997, guid: 6f9a58ba11cd2144a85a1e8b7a95c830, type: 3}
+    - {fileID: 7698677612493189095, guid: 14c7742fae9097a4c9f4e51c75d805c5, type: 3}
+    Fire:
+    - {fileID: 1214068678718777388, guid: 5769db1fc329e91468ea05852c302317, type: 3}
+    - {fileID: 5286983069321593260, guid: fdf84bf130c76b04890dd95881bb4aaf, type: 3}
+    - {fileID: 7851933247842170724, guid: 4d8a78e010029d644afcf1ef441449f5, type: 3}
+    - {fileID: 5257330830083168954, guid: 731d2f09723717c44a51caca8716b417, type: 3}
+    - {fileID: 4891362407363988913, guid: b70b66aa9d0c7054fb3c3788109801f2, type: 3}
+    - {fileID: 7546599527876565679, guid: ae0966252469fbf4fb6fd6441c0e383f, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 8409919094176315657, guid: 6b1724c67c6f9654dba1b9d254e98b39, type: 3}
+    - {fileID: 4961172792621767533, guid: e7ccc43477f336e43817e9ec2fe3d6b1, type: 3}
+    - {fileID: 1254767727772186063, guid: bafef5c80f6ae0b4fb815a3409c5b44b, type: 3}
+    - {fileID: 1451728694947445177, guid: 16c906459df4d0242b8bc061c13c7512, type: 3}
+    - {fileID: 8020985809999706883, guid: eec69e02e80e39e488935ee533290c0e, type: 3}
+    - {fileID: 2236563236756397220, guid: beccbdcfee7a6974ab7e2ca7b6919661, type: 3}
+    Enimies:
+    - {fileID: 227300513108297792, guid: 7bae6068f19a62241b9cd0100b9da7a2, type: 3}
+    - {fileID: 3110762079282767273, guid: 4b25b91852a98a8479cf0c33dc9b6530, type: 3}
+    - {fileID: 3729554638679377900, guid: 384620573edef8245b24507afd5eece8, type: 3}
+    - {fileID: 4631375189319106779, guid: 1c29aa978a2bf37478e7cc2e66af3e5e, type: 3}
+    - {fileID: 3406957651626142937, guid: 9bae6f688aabbbe4fa647e7d3e3d0413, type: 3}
+    - {fileID: 8910987733971509662, guid: d59f1942c1f35a847ad10c913d889b15, type: 3}
+    Fire:
+    - {fileID: 5030389485180091545, guid: 792b64b56de48684d97ca79d0ef33c5c, type: 3}
+    - {fileID: 6056175110212259319, guid: 7cd120c934111a74aba50c16e3fb22da, type: 3}
+    - {fileID: 7302087737346572303, guid: bdee385b055676746b13d7ddce51b572, type: 3}
+    - {fileID: 5688852543308463655, guid: 2f3cbc4b8c3ff964da09acad24a400f1, type: 3}
+    - {fileID: 2129055602651052118, guid: 181faee12579f8f45b022b28b2a20796, type: 3}
+    - {fileID: 7952565784856144191, guid: ce2b3d4099da0494b8062cf13b448156, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 8361825343058588574, guid: a3e76bdb1c0216b43bc61796714118e6, type: 3}
+    - {fileID: 2551777365381535910, guid: b24ee629974f9bd4a8dcc09cb661b8f6, type: 3}
+    - {fileID: 3548148998125242201, guid: 9a0891a4a7dbdb5498fb073d957a233c, type: 3}
+    - {fileID: 8899496071893796552, guid: 6be3982a120a0f340a13ef18db69f535, type: 3}
+    - {fileID: 7665110816585467435, guid: fbb4b09df151579488aaa206aea133bb, type: 3}
+    - {fileID: 199816146576847937, guid: 1c8eaa6238a905443be2a22c7121352f, type: 3}
+    Enimies:
+    - {fileID: 2352472240046419575, guid: ebe9ecb6490b36841814dd357829ce87, type: 3}
+    - {fileID: 1144419160812145235, guid: 540cc975ae605cd41bb520d8a77bb991, type: 3}
+    - {fileID: 4109941023573745954, guid: 0535d5fdaf049d643983201e47c94cc1, type: 3}
+    - {fileID: 8606309105505510658, guid: 4950ccd7424571c45981e397cd91643b, type: 3}
+    - {fileID: 404771465139285748, guid: 956d308fe2e68e54b8c7ebeb8bdf5266, type: 3}
+    - {fileID: 5316563547241628382, guid: f8c349d5b23b7304993b54e52d89248d, type: 3}
+    Fire:
+    - {fileID: 4104115311581955609, guid: ba5f4963b5dda894fb0e230888a5a382, type: 3}
+    - {fileID: 5789203176008481592, guid: 20815e9937a58cb499dddb569e4d806a, type: 3}
+    - {fileID: 4039782246844387139, guid: c25977729ccd4124eba17361a07d4030, type: 3}
+    - {fileID: 8767927466376052910, guid: c9fc42fa356a6c045bf63a4d9aab706e, type: 3}
+    - {fileID: 2910161774384505855, guid: bb7dbda508a3a514592a4730681e6a89, type: 3}
+    - {fileID: 445130491624967605, guid: 46dffab20b277ba4c94d292e79c9c753, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 4117223875982850566, guid: 4aea0e9024b2a144eaef790423604a8a, type: 3}
+    - {fileID: 7512710804948407213, guid: ba93249ff4654f4448508ce74a5a8e21, type: 3}
+    - {fileID: 2708710411819648348, guid: 7865cc3fd66784646bf92e98ee6ec3ae, type: 3}
+    - {fileID: 6581264917318807564, guid: a860c1bb9725ff9418590dfe30becbd9, type: 3}
+    - {fileID: 8922312506140060038, guid: aed1af62d956bdf49903807b77418ffc, type: 3}
+    - {fileID: 2798431690202278190, guid: 8ccd20e8385b57e4f9c45e492f31adbb, type: 3}
+    Enimies:
+    - {fileID: 8477417014825426871, guid: d60e757c353cfe64e996b0a4315c41df, type: 3}
+    - {fileID: 5919560070415935864, guid: d6f327d66b24d7a459d8361fbff1e80b, type: 3}
+    - {fileID: 3929843575447786697, guid: 56e7ea24b69cbd24da75ca24a48654f2, type: 3}
+    - {fileID: 6598899747279711839, guid: 7d39f2b03297647428ccebaf7e142fe5, type: 3}
+    - {fileID: 8273032343138024262, guid: 5c548d7a90269a74b81d59e8423b1096, type: 3}
+    - {fileID: 9221864708778541071, guid: bd552c053321c3f45a54429b9ddb6f79, type: 3}
+    Fire:
+    - {fileID: 4161716902522284414, guid: af183899a87d68240a86129c00bd3db1, type: 3}
+    - {fileID: 2002423621984570862, guid: 294267021f159a94f98564af25274582, type: 3}
+    - {fileID: 6211470373868447516, guid: e09fb04e24fb7eb4da40ca3d321958f8, type: 3}
+    - {fileID: 2817108688480760052, guid: 2f8207f734a6d0840b17d9983f9d37ff, type: 3}
+    - {fileID: 3648744694676239156, guid: a3a48277a14d4a14f8a5737446a22d3f, type: 3}
+    - {fileID: 5865442280138142046, guid: 2c251d05d2b37f34eb754fdf57ee6117, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 245042258476326743, guid: 8cca728dda03d1540a00314d3826eb9d, type: 3}
+    - {fileID: 3536066446026503924, guid: e0dc9e28b2b6d33408120355613dec12, type: 3}
+    - {fileID: 4315922061512262163, guid: 8511717a7eb52674c941d872c25edf17, type: 3}
+    - {fileID: 2682647618628825511, guid: bb3dd9e8a47c6c14494eeae57e8f7b63, type: 3}
+    - {fileID: 843576681895894519, guid: d9685140938dfb044aaf04c081a57e9e, type: 3}
+    - {fileID: 8728374237356093430, guid: a550b79c05477eb49b4891bc94e4fb5a, type: 3}
+    Enimies:
+    - {fileID: 4610661844271172280, guid: 51d90531d878ce44d8b4274d0a2f15c4, type: 3}
+    - {fileID: 2102146214399214882, guid: ca355893991e47048ab023ab9afba417, type: 3}
+    - {fileID: 485500644070300834, guid: 8510fb1006dc02b42af14d992c96a38c, type: 3}
+    - {fileID: 193615198028852980, guid: d4a4c757e4ef22e4db962468ab2ee101, type: 3}
+    - {fileID: 9053423394112431436, guid: 246288044ad88bd4482865a2871c25a1, type: 3}
+    - {fileID: 115401596663863455, guid: ff0bc3d649b2b174eabeb4635613778c, type: 3}
+    Fire:
+    - {fileID: 3852589584598050918, guid: 182a6337e1b5b6a49b20c7e7b20baed2, type: 3}
+    - {fileID: 778431788990600346, guid: 34ac3546da4dcf748bfabbc31384f6cb, type: 3}
+    - {fileID: 5623643286022668952, guid: a2e824da0ebe5bf4c9a27eb91cec6f9a, type: 3}
+    - {fileID: 8070798382863613943, guid: 63db215a09be22548aa5099812c9b585, type: 3}
+    - {fileID: 4048036248043265055, guid: c47fc2d548640054f9543b0b4816bdeb, type: 3}
+    - {fileID: 629600298863850936, guid: 81305b2cfa418594b9957ab5ae145a28, type: 3}
+    Background: []
+  - OnScreen:
+    - {fileID: 4105610352022570184, guid: f796e2ff45a5fe34d8e2dc5a0e43eb4b, type: 3}
+    - {fileID: 6624402652316420458, guid: 7b6ffd2cdae21c04d83b4537f35c1fb4, type: 3}
+    - {fileID: 8258964372209801906, guid: 8fbefed3f62b11b4db0c3d0b39d2cd01, type: 3}
+    - {fileID: 662618370131505948, guid: 44259dd1e901a2f40a2cb05bf73741cf, type: 3}
+    - {fileID: 4626962136354820306, guid: 8c3bf92b5fe78de4bb1e80e6182b9cee, type: 3}
+    - {fileID: 1261773260969918923, guid: d6ea902f4c3f9e24586ecd1e526702ad, type: 3}
+    Enimies:
+    - {fileID: 43106329808223980, guid: b1d26592adf2d254ca07a0af48a0e9d6, type: 3}
+    - {fileID: 5359619846741288213, guid: fec6800299e217c41bc927fca94b617d, type: 3}
+    - {fileID: 6849451437082838070, guid: f5fe30b01bcf7ea41b665ca9a57c9d66, type: 3}
+    - {fileID: 4499791358289056170, guid: 521b86ea9c6013b4983d4fa9f3e39aa9, type: 3}
+    - {fileID: 6839047140930878733, guid: 8c42f7de6cb2b94448cac2a292714df2, type: 3}
+    - {fileID: 2246252396724777240, guid: 57bf1071c2c6c1743ae9b7d55f1411e2, type: 3}
+    Fire:
+    - {fileID: 8446623374649401792, guid: 1f6eac0c800e27c449e5f9a14508e4fc, type: 3}
+    - {fileID: 5854144731665358484, guid: 11778c9ef2589694b89893ebf68958fd, type: 3}
+    - {fileID: 8479848206162260785, guid: 3376db2823e3ef041b6503c183582a97, type: 3}
+    - {fileID: 3358123432692896714, guid: b17f246cd082ab6458c5dfadf2aff5b7, type: 3}
+    - {fileID: 5548663267185280309, guid: fa885e3c64af46d47ab81bde5bfd4cc5, type: 3}
+    - {fileID: 6373369674837133415, guid: 9bcc6305298f94b40824d82240601725, type: 3}
+    Background: []
+  Shop:
+  - locked: 0
+    Price: 0
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
+  - locked: 0
+    Price: 500
